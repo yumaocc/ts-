@@ -1,4 +1,7 @@
 import {combineReducers} from 'redux' 
 import channel from './channel'
-
-export default combineReducers({channel})
+import article from './article'
+export default combineReducers({
+    channel,
+    article
+})
